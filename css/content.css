@@ -1,0 +1,41 @@
+.content__list {
+    padding-top: 53px;
+    min-height: 200vh;
+}
+
+.content img {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #dcdde1;
+}
+
+@keyframes back-btnAnim {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.back-btn__btn,
+.back-btn__title {
+    animation: back-btnAnim 1.5s ease-out forwards;
+}
+
+@keyframes contentAnim {
+    from {
+        opacity: 0;
+        transform: translateY(-200px);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.content__list img {
+    animation: contentAnim 0.7s ease-out forwards;
+}
