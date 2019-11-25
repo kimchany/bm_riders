@@ -1,4 +1,4 @@
-.item {
+.spot {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,28 +7,29 @@
     border-radius: 10px;
     background-color: #F3F5F7 ;
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
-    padding-left: 25px;
+    padding: 0px 25px;
     
 }
 
-.item img {
-    width: 140px;
+.spot img {
+    width: 120px;
     border-radius: 10px;
-
+    margin-bottom: 80px;
 }
 
-.item .item__column {
+.spot .spot__column {
+    width: 100%;
     display: flex;
     align-items: center;
 }
 
-.item__content {
+.spot__content {
     position: relative;
     height: 140px;
-    width: 150px;
+    width: 100%;
 }
 
-.item .item__first-text {
+.spot .spot__first-text {
     position: absolute;
     top: 20px;
     display: block;
@@ -38,8 +39,19 @@
     opacity: 0.8; 
 }
 
-.item .item__second-text {
-    margin-top: 50px;
+.spot .spot__second-text {
+    position: absolute;
+    top: 60px;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 0.8;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.spot .spot__third-text {
+    position: absolute;
+    top: 85px;
     display: block;
     font-size: 14px;
     font-weight: 700;
@@ -47,19 +59,22 @@
     font-family: 'Nanum Gothic', sans-serif;
 }
 
-.item .item__third-text {
+.spot .spot__fourth-text {
     position: absolute;
-    bottom: 10px;
-    font-size: 25px;
-    font-weight: 500;
-    border-radius: 10px;
-    padding: 5px;
-    background-color: #74ebd5;
-    color: #F3F5F7;
-    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    bottom: 8px;
+    font-size: 15px;
+    color: #093028;
 }
 
-@keyframes itemAnim {
+.spot .spot__five-text {
+    position: absolute;
+    bottom: 8px;
+    left: 90px;
+    font-size: 15px;
+    color: #093028;
+}
+
+@keyframes spotAnim {
     from {
         opacity: 0;
         transform: translateX(-200px);
@@ -71,10 +86,10 @@
     }
 }
 
-.main__item {
-    animation: itemAnim 0.7s ease-out forwards;
+.spot {
+    animation: spotAnim 0.7s ease-out forwards;
 }
 
-.item:nth-child(10) {
+.spot:nth-child(3) {
     margin-bottom: 70px;
 }

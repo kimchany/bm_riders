@@ -6,6 +6,11 @@
 @import "header.css";
 @import "content.css";
 @import "mobile.css";
+@import "body-shop__list.css";
+@import "center.css";
+@import "bros.css";
+@import "nav-bar.css";
+@import "up-btn.css";
 
 * {
     box-sizing: border-box;

@@ -20,6 +20,18 @@
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
 
+.header-main3 {
+    background-image: linear-gradient(to bottom right ,#243B55,#4B79A1,#283E51,#434343 );
+}
+
+.header-main4 {
+    background-image: linear-gradient(to bottom right ,#f85032,#ef473a,#F7971E,#FFD200 );
+}
+
+.header-main5 {
+    background-image: linear-gradient(to bottom right ,#1c92d2,#ACB6E5,#BDFFF3,#74ebd5 );
+}
+
 .header-main .header__logo {
     position: absolute;
     bottom: 10px;
