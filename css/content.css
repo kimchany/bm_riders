@@ -1,6 +1,6 @@
 .content__list {
     padding-top: 53px;
-    min-height: 200vh;
+    
 }
 
 .content img {
@@ -38,4 +38,8 @@
 
 .content__list img {
     animation: contentAnim 0.7s ease-out forwards;
+}
+
+.content__list:nth-last-child(1) {
+    margin-bottom: 55px;
 }
