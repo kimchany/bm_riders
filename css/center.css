@@ -32,6 +32,7 @@
 .spot .spot__first-text {
     position: absolute;
     top: 20px;
+    width: 100%;
     display: block;
     font-size: 25px;
     font-weight: 700;
@@ -42,6 +43,7 @@
 .spot .spot__second-text {
     position: absolute;
     top: 60px;
+    width: 100%;
     display: block;
     font-size: 14px;
     font-weight: 700;
@@ -52,6 +54,7 @@
 .spot .spot__third-text {
     position: absolute;
     top: 85px;
+    width: 100%;
     display: block;
     font-size: 14px;
     font-weight: 700;
@@ -95,5 +98,8 @@
 }
 
 .none {
-    display: none;
+    height: 100px;
+    background-color: none;
+    border: none;
+    opacity: 0;
 }
